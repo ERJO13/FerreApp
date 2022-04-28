@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ferreapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FerreApp">
+        <activity
+            android:name=".partAzSagTin"
+            android:exported="false"
+            android:label="@string/title_activity_part_az_sag_tin"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partAzSagTu"
+            android:exported="false"
+            android:label="@string/title_activity_part_az_sag_tu"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partAzSgsTu"
+            android:exported="false"
+            android:label="@string/title_activity_part_az_sgs_tu"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partAzSgsTan"
+            android:exported="false"
+            android:label="@string/title_activity_part_az_sgs_tan"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".compAzSgs"
+            android:exported="false"
+            android:label="@string/title_activity_comp_az_sgs"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".compAzSag"
+            android:exported="false"
+            android:label="@string/title_activity_comp_az_sag"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partBaLaLle"
+            android:exported="false"
+            android:label="@string/title_activity_part_ba_la_lle"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partBaLaDes"
+            android:exported="false"
+            android:label="@string/title_activity_part_ba_la_des"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partBaLaLav"
+            android:exported="false"
+            android:label="@string/title_activity_part_ba_la_lav"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partBaReEx"
+            android:exported="false"
+            android:label="@string/title_activity_part_ba_re_ex"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partBaReTu"
+            android:exported="false"
+            android:label="@string/title_activity_part_ba_re_tu"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partBaEsEs"
+            android:exported="false"
+            android:label="@string/title_activity_part_ba_es_es"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partBaEsTan"
+            android:exported="false"
+            android:label="@string/title_activity_part_ba_es_tan"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partCoPiAzAz"
+            android:exported="false"
+            android:label="@string/title_activity_part_co_pi_az_az"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partCoPiAzPi"
+            android:exported="false"
+            android:label="@string/title_activity_part_co_pi_az_pi"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partCoSelLum"
+            android:exported="false"
+            android:label="@string/title_activity_part_co_sel_lum"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partCoSelCon"
+            android:exported="false"
+            android:label="@string/title_activity_part_co_sel_con"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partCoSelCam"
+            android:exported="false"
+            android:label="@string/title_activity_part_co_sel_cam"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partCoSgsMan"
+            android:exported="false"
+            android:label="@string/title_activity_part_co_sgs_man"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partCoSgsTu"
+            android:exported="false"
+            android:label="@string/title_activity_part_co_sgs_tu"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partCoSagLle"
+            android:exported="false"
+            android:label="@string/title_activity_part_co_sag_lle"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partCoSagDes"
+            android:exported="false"
+            android:label="@string/title_activity_part_co_sag_des"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partCoSagTar"
+            android:exported="false"
+            android:label="@string/title_activity_part_co_sag_tar"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".compCoPiAz"
+            android:exported="false"
+            android:label="@string/title_activity_comp_co_pi_az"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".compCoSel"
+            android:exported="false"
+            android:label="@string/title_activity_comp_co_sel"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".compCoSgs"
+            android:exported="false"
+            android:label="@string/title_activity_comp_co_sgs"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".compCoSag"
+            android:exported="false"
+            android:label="@string/title_activity_como_co_sag"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partGeArGeMos"
+            android:exported="false"
+            android:label="@string/title_activity_part_ge_ar_ge_mos"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partGeArGeTaAg"
+            android:exported="false"
+            android:label="@string/title_activity_part_ge_ar_ge_ta_ag"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partGeArGePinCa"
+            android:exported="false"
+            android:label="@string/title_activity_part_ge_ar_ge_pin_ca"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partGeArGeLamTe"
+            android:exported="false"
+            android:label="@string/title_activity_part_ge_ar_ge_lam_te"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partGeArGeEnLu"
+            android:exported="false"
+            android:label="@string/title_activity_part_ge_ar_ge_en_lu"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partGeArGeCe"
+            android:exported="false"
+            android:label="@string/title_activity_part_ge_ar_ge_ce"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partGeArGePer"
+            android:exported="false"
+            android:label="@string/title_activity_part_ge_ar_ge_per"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partGeArGePu"
+            android:exported="false"
+            android:label="@string/title_activity_part_ge_ar_ge_pu"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".compGeArGe"
+            android:exported="false"
+            android:label="@string/title_activity_comp_ge_ar_ge"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partPaSgsPig"
+            android:exported="false"
+            android:label="@string/title_activity_part_pa_sgs_pig"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partPaSgsRe"
+            android:exported="false"
+            android:label="@string/title_activity_part_pa_sgs_re"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partPaSgsMa"
+            android:exported="false"
+            android:label="@string/title_activity_part_pa_sgs_ma"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partPaSgsLlaPa"
+            android:exported="false"
+            android:label="@string/title_activity_part_pa_sgs_lla_pa"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partPaSgsTu"
+            android:exported="false"
+            android:label="@string/title_activity_part_pa_sgs_tu"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".compPaSag"
+            android:exported="false"
+            android:label="@string/title_activity_comp_pa_sag"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".compPaSgs"
+            android:exported="false"
+            android:label="@string/title_activity_comp_pa_sgs"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partPatSagExt"
+            android:exported="false"
+            android:label="@string/title_activity_part_pat_sag_ext"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partPatSagPis"
+            android:exported="false"
+            android:label="@string/title_activity_part_pat_sag_pis"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partPatSagCon"
+            android:exported="false"
+            android:label="@string/title_activity_part_pat_sag_con"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partPatSagMan"
+            android:exported="false"
+            android:label="@string/title_activity_part_pat_sag_man"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partPatSagLla"
+            android:exported="false"
+            android:label="@string/title_activity_part_pat_sag_lla"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partPatSagLlagPa"
+            android:exported="false"
+            android:label="@string/title_activity_part_pat_sag_llag_pa"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".partPatSagTu"
+            android:exported="false"
+            android:label="@string/title_activity_part_pat_sag_tu"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".compBaLa"
+            android:exported="false"
+            android:label="@string/title_activity_par_ba_la"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".compBaEs"
+            android:exported="false"
+            android:label="@string/title_activity_part_ba_es"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".compBaRe"
+            android:exported="false"
+            android:label="@string/title_activity_part_ba_sis_ag"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".escJardin"
+            android:exported="false"
+            android:label="@string/title_activity_comp_jardin"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".escGeneral"
+            android:exported="false"
+            android:label="@string/title_activity_comp_general"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".escAzotea"
+            android:exported="false"
+            android:label="@string/title_activity_comp_azotea"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".escPatio"
+            android:exported="false"
+            android:label="@string/title_activity_comp_patio"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".escCocina"
+            android:exported="false"
+            android:label="@string/title_activity_comp_cocina"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".escBathroom"
+            android:exported="false"
+            android:label="@string/title_activity_partes_bathroom"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".escenarios"
+            android:exported="true"
+            android:label="@string/title_activity_escenarios"
+            android:theme="@style/Theme.FerreApp.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+
+</manifest>

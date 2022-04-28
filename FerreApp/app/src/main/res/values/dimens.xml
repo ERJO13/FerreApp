@@ -1,0 +1,22 @@
+<resources>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="btn_principales_alto">80dp</dimen>
+    <dimen name="btn_principales_ancho">200dp</dimen>
+    <dimen name="ltr_principales_alto">18sp</dimen>
+ <!--medidas de las cartas-->
+    <dimen name="card_margin_esce">16dp</dimen>
+    <dimen name="card_albrad_esc">50dp</dimen>
+
+    <dimen name="alb_cover_height">160dp</dimen>
+    <dimen name="alb_title_padding">10dp</dimen>
+    <dimen name="alb_title">15dp</dimen>
+    <dimen name="item_count_padding_bottom">5dp</dimen>
+    <dimen name="item_count">12dp</dimen>
+    <dimen name="ic_alb_overflow_width">20dp</dimen>
+    <dimen name="uc_alb_overflow_width">30dp</dimen>
+    <dimen name="uc_alb_overflow_margin_top">10dp</dimen>
+
+
+</resources>

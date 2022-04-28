@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="principal_200">#CC9544</color>
+    <color name="principal_300">#9E7334</color>
+    <color name="principal_500">#603601</color>
+    <color name="principal_700">#361500</color>
+    <color name="alt_200">#DCA603</color>
+    <color name="alt_700">#8A7403</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="text">#020B29</color>
+
+</resources>
